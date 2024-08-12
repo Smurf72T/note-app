@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c3b6b41-a88a-4f32-8251-cd5c144e3613" name="Changes" comment="create note app">
+    <list default="true" id="9c3b6b41-a88a-4f32-8251-cd5c144e3613" name="Changes" comment="create edit_note">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/note app.py" beforeDir="false" afterPath="$PROJECT_DIR$/note app.py" afterDir="false" />
     </list>
@@ -72,11 +72,20 @@
       <option name="project" value="LOCAL" />
       <updated>1723185066350</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="create edit_note">
+      <option name="closed" value="true" />
+      <created>1723436742037</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723436742037</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create note app" />
-    <option name="LAST_COMMIT_MESSAGE" value="create note app" />
+    <MESSAGE value="create edit_note" />
+    <option name="LAST_COMMIT_MESSAGE" value="create edit_note" />
   </component>
 </project>
