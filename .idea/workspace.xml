@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c3b6b41-a88a-4f32-8251-cd5c144e3613" name="Changes" comment="add main_note">
-      <change afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
+    <list default="true" id="9c3b6b41-a88a-4f32-8251-cd5c144e3613" name="Changes" comment="add display_note&#10;add sort bubble in display_notes&#10;add new txt files in project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/note app.py" beforeDir="false" afterPath="$PROJECT_DIR$/note app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +111,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723441615934</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add display_note&#10;add sort bubble in display_notes&#10;add new txt files in project">
+      <option name="closed" value="true" />
+      <created>1723444071835</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1723444071835</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -120,6 +128,7 @@
     <MESSAGE value="add edit_note&#10;add delete_note" />
     <MESSAGE value="replace edit_note&#10;replace delete_note" />
     <MESSAGE value="add main_note" />
-    <option name="LAST_COMMIT_MESSAGE" value="add main_note" />
+    <MESSAGE value="add display_note&#10;add sort bubble in display_notes&#10;add new txt files in project" />
+    <option name="LAST_COMMIT_MESSAGE" value="add display_note&#10;add sort bubble in display_notes&#10;add new txt files in project" />
   </component>
 </project>

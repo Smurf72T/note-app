@@ -4,10 +4,13 @@ import os.path
 
 
 def build_note(note_text, note_name):
-    f = open(f'{note_name}.txt', 'w', encoding="utf-8")
-    f.write(note_text)
-    f.close()
-    print(f'Заметка {note_name} создана')
+    try:
+        f = open(f'{note_name}.txt', 'w', encoding="utf-8")
+        f.write(note_text)
+        f.close()
+        print(f'Заметка {note_name} создана')
+    except:
+        print('В каком-то моменте ошибка')
 
 
 """Функция, которая запрашивает название и текст заметки у пользователя, после чего создает заметку"""
@@ -26,11 +29,12 @@ def create_note():
 
 
 def read_note():
-    note_name = input()
+    note_name = input("Введите название заметки: ")
     if os.path.isfile(f'{note_name}.txt'):
         f = open(f'{note_name}.txt', 'r', encoding="utf-8")
+        # f.read()
+        print(f.read())
         f.close()
-        print(f)
     else:
         print(f'Заметка {note_name} не найдена')
 
@@ -41,8 +45,8 @@ def read_note():
 def edit_note():
     note_name = input("Введите название заметки: ")
     if os.path.isfile(f'{note_name}.txt'):
-        f = open(f'{note_name}.txt', '+', encoding="utf-8")
-        print(f)
+        f = open(f'{note_name}.txt', 'r+', encoding="utf-8")
+        print(f.read())
         note_text = input("Введите текст заметки: ")
         f.write(note_text)
         f.close()
@@ -66,18 +70,21 @@ def main_note():
           1. Создание заметки
           2. Редактирование заметки
           3. Удаление заметки
-          4. Просмотр заметки""")
+          4. Просмотр заметки
+          5. Вывод всех заметок""")
 
     num_fun = input('Введите номер желаемого пункта: ')
-    for i in num_fun:
-        if i.isdigit() is not True:
-            raise ValueError("Некорректный ввод. Выберите один из пунктов")
-    if num_fun > 4:
-        raise ValueError("Введите значение от 1 до 4")
-        main_note()
-    else:
-        note_function = ['Hi', create_note, read_note, edit_note, delete_note]
-        return note_function.index(num_fun)
+
+    # try:
+    # #     for i in num_fun:
+    # #         if i.isdigit() is not True:
+    # #             raise ValueError("Некорректный ввод. Выберите один из пунктов")
+    # # except:
+    # #     raise ValueError("Введите значение от 1 до 4")
+    # #     # main_note()
+    # # else:
+    # note_function = ['Hi', create_note, read_note, edit_note, delete_note]
+    # return note_function[num_fun]
 
 """Функция, которая выводит все заметки пользователя"""
 def display_notes():
@@ -91,5 +98,10 @@ def display_notes():
                     notes[kel], notes[kel + 1] = notes[kel + 1], notes[kel]  # меняем местами
     return notes
 
-print(display_notes())
+"""Функция, которая добавляет сортировку для заметок"""
+def display_sorted_notes():
+# print(display_notes())
 # create_note()
+# read_note()
+# edit_note()
+# main_note()
