@@ -78,3 +78,18 @@ def main_note():
     else:
         note_function = ['Hi', create_note, read_note, edit_note, delete_note]
         return note_function.index(num_fun)
+
+"""Функция, которая выводит все заметки пользователя"""
+def display_notes():
+    notes = [note for note in os.listdir() if note.endswith(".txt")]
+    if len(notes) < 2:
+        return notes
+    else:
+        for i in range(int(len(notes))):  # проход по длине списка
+            for kel in range(int(len(notes)) - 1):  # проход по длине списка до последнего элемента
+                if len(notes[kel]) > len(notes[kel + 1]):  # если текущий элемент больше следующего
+                    notes[kel], notes[kel + 1] = notes[kel + 1], notes[kel]  # меняем местами
+    return notes
+
+print(display_notes())
+# create_note()
