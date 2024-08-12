@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c3b6b41-a88a-4f32-8251-cd5c144e3613" name="Changes" comment="add edit_note&#10;add delete_note" />
+    <list default="true" id="9c3b6b41-a88a-4f32-8251-cd5c144e3613" name="Changes" comment="replace edit_note&#10;replace delete_note">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note app.py" beforeDir="false" afterPath="$PROJECT_DIR$/note app.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +21,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
@@ -85,13 +94,22 @@
       <option name="project" value="LOCAL" />
       <updated>1723439101878</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="replace edit_note&#10;replace delete_note">
+      <option name="closed" value="true" />
+      <created>1723439451152</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1723439451152</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create note app" />
     <MESSAGE value="create edit_note" />
     <MESSAGE value="add edit_note&#10;add delete_note" />
-    <option name="LAST_COMMIT_MESSAGE" value="add edit_note&#10;add delete_note" />
+    <MESSAGE value="replace edit_note&#10;replace delete_note" />
+    <option name="LAST_COMMIT_MESSAGE" value="replace edit_note&#10;replace delete_note" />
   </component>
 </project>
