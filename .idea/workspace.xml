@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c3b6b41-a88a-4f32-8251-cd5c144e3613" name="Changes" comment="add display_note&#10;add sort bubble in display_notes&#10;add new txt files in project">
+    <list default="true" id="9c3b6b41-a88a-4f32-8251-cd5c144e3613" name="Changes" comment="add try/except in build_note">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/note app.py" beforeDir="false" afterPath="$PROJECT_DIR$/note app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +29,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {}
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {}
+}</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Smurf72T/note-app/&quot;,
@@ -58,7 +57,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-975db3bf15a3-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.18034.82" />
+        <option value="bundled-python-sdk-0e3be3396995-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23339.19" />
       </set>
     </attachedChunks>
   </component>
@@ -119,7 +118,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723444071835</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add try/except in build_note">
+      <option name="closed" value="true" />
+      <created>1723445843352</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1723445843352</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -129,6 +136,7 @@
     <MESSAGE value="replace edit_note&#10;replace delete_note" />
     <MESSAGE value="add main_note" />
     <MESSAGE value="add display_note&#10;add sort bubble in display_notes&#10;add new txt files in project" />
-    <option name="LAST_COMMIT_MESSAGE" value="add display_note&#10;add sort bubble in display_notes&#10;add new txt files in project" />
+    <MESSAGE value="add try/except in build_note" />
+    <option name="LAST_COMMIT_MESSAGE" value="add try/except in build_note" />
   </component>
 </project>
